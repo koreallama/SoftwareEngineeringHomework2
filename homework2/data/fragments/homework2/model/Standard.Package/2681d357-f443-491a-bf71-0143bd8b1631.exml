@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="homework2" version="4">
+  <OBJECT>
+    <ID name="homework2" mc="Standard.Package" uid="2681d357-f443-491a-bf71-0143bd8b1631"/>
+    <PID name="homework2" mc="Standard.Project" uid="21c15922-df3b-4bb5-b320-5d10f89ad2cb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[homework2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="관리자" mc="Standard.Actor" uid="8f5dcfa6-5e82-4871-9b08-655bda53a528"/>
+        <COMPID name="회원" mc="Standard.Actor" uid="a99af8e2-46b0-48c1-a80d-e956f5b9a197"/>
+        <COMPID name="사용자" mc="Standard.Actor" uid="fe0b7659-a517-4ecd-84fb-c59a2a843488"/>
+        <COMPID name="회원 가입" mc="Standard.UseCase" uid="1bf4541a-ddb1-4417-b0ce-4ce601777cf4"/>
+        <COMPID name="자전거 등록" mc="Standard.UseCase" uid="5b7e13bc-5a4f-449e-8b81-7a8a55bfcb67"/>
+        <COMPID name="로그인" mc="Standard.UseCase" uid="294b1cc2-13c8-4c8e-afe4-4f5622b4173f"/>
+        <COMPID name="로그아웃" mc="Standard.UseCase" uid="0a1278a3-df95-4b19-9928-da08be30a5df"/>
+        <COMPID name="자전거 대여" mc="Standard.UseCase" uid="0fe1740d-b881-4a7b-8956-b52bb5a5e8e9"/>
+        <COMPID name="자전거 대여 정보 조회" mc="Standard.UseCase" uid="df5ebddc-48a8-4b5b-b57f-bf77ef9d9e3e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="homework2 Use Case diagram" mc="Standard.UseCaseDiagram" uid="2aa92877-9239-46a1-8e27-297ce80cf40a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
